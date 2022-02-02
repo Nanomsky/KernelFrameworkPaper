@@ -1,11 +1,13 @@
 clc;
 clear;
 
+addpath('./functions')
+
 %=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 %load file with the list of file names to test
-file = '/Users/osita/Documents/GitHub/AntiCancer_Peptides/Pep_K1_squ/Ker_Peptide_squ_k_ed1_1.mat'; %needed to get the file path
+file = './Pep_K7/Ker_Peptide_k_ed7_1.mat'; %needed to get the file path
 [filepath,name,ext] = fileparts(file); %Split into constituent parts
-load('/Users/osita/Documents/GitHub/AntiCancer_Peptides/Pep_K1_squ/FileName')
+load('./Pep_K7/FileName')
 %=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 %Create new folder to store the plots
 mkdir ./plots
