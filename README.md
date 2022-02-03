@@ -6,11 +6,11 @@ Contains the data and scripts used for Nature paper
 * [Technologies](#technologies)
 * [Prerequisite](#Prerequisite)
 * [Setup](#setup)
-* [List of Files](#List of Files)
+* [List of Files](#Files)
 * [Contact](#Contact)
 
 ## General info
-This project contains the various codes and data used in conducting experiments for the Nature paper titled - <b> A Novel Kernel-Based Approach For Uneven length
+This project contains matlab, python scripts and dataset used in conducting experiments for the Nature paper titled - <b> A Novel Kernel-Based Approach For Uneven length
 Symbolic Data: A Case Study for Establishing Type 2 Diabetes Risk </b>.
 	
 ## Technologies
@@ -32,7 +32,7 @@ Project is created with:
 ## Setup
 To run this project, retain the file structure and run the matlab scripts from matlab. :
 
-## List of Files
+## Files
 <b>Matlab Scripts</b>
  * [A1_Develop kernel.m](https://github.com/Nanomsky/KernelFrameworkPaper/blob/main/Matlab_Code/A1_DevelopKernel.m) - Script for executing the kernel functions and generating the kernel matrices
  * [A1_DevelopKernel_All_Tables.m](https://github.com/Nanomsky/KernelFrameworkPaper/blob/main/Matlab_Code/A1_DevelopKernel_All_Tables.m) - Script for selecting individual data tables and executing kernel functions.  
